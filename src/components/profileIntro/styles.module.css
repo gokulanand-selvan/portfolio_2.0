@@ -14,9 +14,53 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 2;
-  /* background: rgba(101, 83, 48, 0.72); */
-  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  /* background: rgba(101, 83, 48, 0.72); "Kaushan Script", cursive*/
+  background: rgb(0 0 0 / 72%);
+  animation: fadeIn 2s;
 }
 .overlayContent {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  color: #fff;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.myName {
+  font-family: "Kaushan Script", cursive;
+  font-size: 5rem;
+  color: #ffff;
+  transform: rotate(-8deg);
+  padding: 0.5rem 0rem 3rem 0rem;
+}
+.myRole {
+  font-size: 1.3em;
+}
+.mySocial {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  padding: 1rem;
+  gap: 3rem;
+}
+.mySocial a {
+  text-decoration: none;
+  color: #fff;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
