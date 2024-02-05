@@ -4,7 +4,6 @@
 }
 #vid {
   object-fit: cover;
-  position: absolute;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -15,18 +14,18 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  /* background: rgba(101, 83, 48, 0.72); "Kaushan Script", cursive*/
   background: rgb(0 0 0 / 72%);
-  animation: fadeIn 2s;
+  animation: fadeIn 1s;
 }
 .overlayContent {
   width: 100%;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
-  top: 150px;
   color: #fff;
-  z-index: 3;
+  z-index: 1;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -46,11 +45,10 @@
   font-size: 1.3em;
 }
 .mySocial {
-  color: #fff;
   font-size: 2rem;
   display: flex;
   padding: 1rem;
-  gap: 3rem;
+  gap: 2rem;
 }
 .mySocial a {
   text-decoration: none;
