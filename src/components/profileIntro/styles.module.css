@@ -4,7 +4,6 @@
 }
 #vid {
   object-fit: cover;
-  position: absolute;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -14,9 +13,52 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 2;
-  /* background: rgba(101, 83, 48, 0.72); */
-  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  background: rgb(0 0 0 / 72%);
+  animation: fadeIn 1s;
 }
 .overlayContent {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.myName {
+  font-family: "Kaushan Script", cursive;
+  font-size: 5rem;
+  color: #ffff;
+  transform: rotate(-8deg);
+  padding: 0.5rem 0rem 3rem 0rem;
+}
+.myRole {
+  font-size: 1.3em;
+}
+.mySocial {
+  font-size: 2rem;
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+}
+.mySocial a {
+  text-decoration: none;
+  color: #fff;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
