@@ -54,6 +54,9 @@
   text-decoration: none;
   color: #fff;
 }
+.mySocial a:hover {
+  color: #149ddd;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

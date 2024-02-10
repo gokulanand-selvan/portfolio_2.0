@@ -1,9 +1,11 @@
-import ConentNavbar from "../contentNavbar/ConentNavbar";
+import About from "../../layouts/content/about/About";
+import ConentNavbar from "../../layouts/content/contentNavbar/ConentNavbar";
 
 function ProfileContent() {
   return (
     <div style={{ display: "flex", background: "#ffff" }}>
       <ConentNavbar />
+      <About />
     </div>
   );
 }

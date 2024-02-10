@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import catVid from "../../assets/production_id_3969452 (2160p) (1).mp4";
-import avatar from "../../assets/myImg.jpeg";
+import catVid from "../../../assets/production_id_3969452 (2160p) (1).mp4";
+import avatar from "../../../assets/myImg.jpeg";
 import {
   RiGithubFill,
   RiInstagramFill,
