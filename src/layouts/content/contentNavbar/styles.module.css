@@ -10,6 +10,9 @@
   height: 100vh;
   background-color: black;
   justify-content: center;
+  /* position: fixed;
+  top: 0;
+  bottom: 0; */
 }
 .contentNavbarConatiner ul li {
   position: relative;
