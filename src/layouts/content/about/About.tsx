@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import pto from "../../assets/myImg.jpeg";
+import pto from "../../../assets/myImg.jpeg";
 
 function About() {
   return (

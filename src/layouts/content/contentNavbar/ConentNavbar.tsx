@@ -1,10 +1,16 @@
 import styles from "./styles.module.css";
-import { FaFileAlt, FaList, FaPhone, FaUserAlt } from "react-icons/fa";
+import { FaFileAlt, FaHome, FaList, FaPhone, FaUserAlt } from "react-icons/fa";
 
 function ConentNavbar() {
   return (
     <div className={styles.contentNavbarConatiner}>
       <ul>
+        <li>
+          <a href="">
+            <FaHome />
+            <span>Home</span>
+          </a>
+        </li>
         <li>
           <a href="">
             <FaUserAlt />
