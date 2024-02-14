@@ -1,9 +1,11 @@
 .aboutContainer {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   color: #000;
-  margin: 2rem;
   font-size: larger;
+  margin-left: 20%;
+  padding: 0px 10px;
+  z-index: 1;
 }
 .aboutTitle {
   color: #173b6c;

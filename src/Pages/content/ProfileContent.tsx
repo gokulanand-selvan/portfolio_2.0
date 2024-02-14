@@ -3,7 +3,9 @@ import ConentNavbar from "../../layouts/content/contentNavbar/ConentNavbar";
 
 function ProfileContent() {
   return (
-    <div style={{ display: "flex", background: "#ffff" }}>
+    <div
+      style={{ display: "flex", flexDirection: "column", background: "#ffff" }}
+    >
       <ConentNavbar />
       <About />
     </div>
