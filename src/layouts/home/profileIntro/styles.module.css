@@ -40,6 +40,7 @@
   color: #ffff;
   transform: rotate(-8deg);
   padding: 0.5rem 0rem 3rem 0rem;
+  cursor: pointer;
 }
 .myRole {
   font-size: 1.3em;

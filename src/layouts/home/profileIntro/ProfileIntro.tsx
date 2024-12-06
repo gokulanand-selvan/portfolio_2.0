@@ -7,8 +7,10 @@ import {
   RiLinkedinBoxFill,
   RiTwitterXFill,
 } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 function ProfileIntro() {
+  const navigation = useNavigate();
   return (
     <div className={styles.introContainer}>
       <video autoPlay muted loop id={styles.vid}>
@@ -18,7 +20,12 @@ function ProfileIntro() {
       <div className={styles.overlayContainer}>
         <div className={styles.overlayContent}>
           <img src={avatar} alt="avatar" className={styles.image} />
-          <div className={styles.myName}>
+          <div
+            onClick={() => {
+              navigation("explore");
+            }}
+            className={styles.myName}
+          >
             <span> - </span> Gokul Anand S <span>-</span>
           </div>
           <div className={styles.myRole}>React + React Native Developer</div>

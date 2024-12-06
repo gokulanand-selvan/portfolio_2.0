@@ -21,7 +21,7 @@ function About() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <div className={styles.detialsContianer}>
+          {/* <div className={styles.detialsContianer}>
             <div>
               <ul>
                 <li>
@@ -41,14 +41,14 @@ function About() {
                   <b>Age</b>: 25
                 </li>
                 <li>
-                  <b>Degree</b>:UG
+                  <b>Email </b>: gokul2848@gmail.com
                 </li>
                 <li>
-                  <b>Email </b>: gokul2848@gmail.com
+                  <b>Degree</b>:UG
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,11 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
 import { FaFileAlt, FaHome, FaList, FaPhone, FaUserAlt } from "react-icons/fa";
 
 function ConentNavbar() {
+  const navigate = useNavigate();
   return (
     <div className={styles.contentNavbarConatiner}>
       <ul>
-        <li>
+        <li onClick={() => navigate("/")}>
           <a href="">
             <FaHome />
             <span>Home</span>
@@ -26,7 +28,7 @@ function ConentNavbar() {
         <li>
           <a href="">
             <FaFileAlt />
-            <span>Resume</span>
+            <span>Projects</span>
           </a>
         </li>
         <li>

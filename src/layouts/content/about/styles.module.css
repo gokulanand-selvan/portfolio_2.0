@@ -1,16 +1,13 @@
 .aboutContainer {
   width: 80%;
   height: 100vh;
-  color: #000;
   font-size: larger;
   margin-left: 20%;
   padding: 0px 10px;
-  z-index: 1;
 }
 .aboutTitle {
-  color: #173b6c;
-  border-bottom: 2px solid #149ddd;
-  /* padding-bottom: 1rem; */
+  color: #ffffff;
+  border-bottom: 2px solid #fbfbfb;
   width: fit-content;
 }
 .aboutContent {
@@ -22,6 +19,7 @@
   padding: 2rem;
   display: flex;
   justify-content: space-evenly;
+  gap: 3rem;
 }
 
 .detialsContianer ul li {

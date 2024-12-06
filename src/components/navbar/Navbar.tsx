@@ -6,10 +6,7 @@ function Navbar() {
   return (
     <div className={styles.navContainer}>
       <div className={styles.navContent}>
-        <span>Home</span>
         <span onClick={() => navigate("/explore")}>About</span>
-        <span>Resume</span>
-        <span>Project</span>
       </div>
     </div>
   );
